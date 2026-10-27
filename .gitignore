@@ -1,0 +1,52 @@
+# Maven build output
+
+backend/target/
+
+# Java compiled files
+
+*.class
+
+# Environment variables and local secrets
+
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+
+# Private keys and certificates
+
+*.pem
+*.key
+*.p12
+*.jks
+
+# Terraform generated files
+
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Logs
+
+*.log
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# IDE settings
+
+.idea/
+.vscode/
+*.iml
+
+# Temporary files
+
+*.tmp
+*.swp
+*~
+backend/cp.txt
